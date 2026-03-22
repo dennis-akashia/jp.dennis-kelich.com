@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta http-equiv="Content-Security-Policy"
+      content="
+        default-src 'self';
+        script-src 'self' 'unsafe-inline' https://cdn.dennis-kelich.com;
+        style-src  'self' 'unsafe-inline' https://cdn.dennis-kelich.com;
+        img-src    'self' data: https:;
+        font-src   'self' https://cdn.dennis-kelich.com;
+        connect-src 'self';
+        frame-ancestors 'none';
+        base-uri 'self';
+        form-action 'self' https://dennis-kelich.com;
+      ">
+  <!-- Security: Prevent MIME type sniffing -->
+  <meta http-equiv="X-Content-Type-Options" content="nosniff">
+  <!-- Security: Enable XSS protection in browsers -->
+  <meta http-equiv="X-XSS-Protection" content="1; mode=block">
+  <!-- Security: Control referrer information -->
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <title data-config="site.title">DennisKelich.com</title>
+  <link rel="stylesheet" href="https://cdn.dennis-kelich.com/1.0.0/styles.min.css"/>
+  <link rel='shortcut icon' type='image/x-icon' href='https://cdn.dennis-kelich.com/dkfav.jpg'>
+  <link href="" rel="stylesheet"/>
+  <script>
+    // Apply dark mode class to HTML element immediately to prevent flash
+    if (localStorage.getItem('darkMode') === 'true') {
+      document.documentElement.classList.add('dark-mode');
+    }
+    
+    // Hide translatable content until correct language is loaded to prevent flash of default language
+    const savedLang = localStorage.getItem('language');
+    if (savedLang && savedLang !== 'de') {
+      document.documentElement.classList.add('lang-loading');
+    }
+  </script>
+</head>
+<body>
+  <!-- Scroll Progress Bar - Shows reading progress at top of page -->
+  <div class="progress-container">
+    <div class="progress-bar" id="myBar"></div>
+  </div>
+  
+  <!-- Back to Top Button - Appears after scrolling 500px -->
+  <button onclick='topFunction()' id='myBtn' title='Go to top'>^</button>
+
+  <!-- ==================== HEADER / NAVIGATION ==================== -->
+  <header class="navbar">
+  <div class="container">
+    <div class="nav-left">
+      <span class="site-title" data-config="site.title">DennisKelich.com</span>
+      
+      <nav id='site-navigation' class='main-navigation left'>
+        <!-- Burger Menu Icon (Mobile Only) -->
+        <div class='burger'>
+          <label for='menu-0'></label>
+        </div>
+        
+        <div class='menu-mobile-menu-container'>
+          <input id='menu-0' type='checkbox' class='menu-checkbox'>
+          <div class='menu-wrapper menu'>
+            <div class='schaltflaeche'></div>
+            <ul id='mobile-menu' class='menu-top'>
+              <li><label class='menu-toggle toplvl' for='menu-0'></label></li>
+
+              <!-- Navigation items with multilingual support (data-i18n) -->
+              <!-- About Me / Über mich / 紹介 -->
+              <li id='menu-item-1' class='menu-item menu-item-type-post_type menu-item-object-page'><a href='#about'>紹介</a></li>
+
+              <!-- Projects / Referenzen / プロジェクト -->
+              <li id='menu-item-3' class='menu-item menu-item-type-post_type menu-item-object-page'><a href='#projects'>プロジェクト</a></li>
+
+              <!-- Contact / Kontakt / 連絡先 -->
+              <li id='menu-item-4' class='menu-item menu-item-type-post_type menu-item-object-page'><a href='https://de.dennis-kelich.com/contact/' target='_blank'>連絡先</a></li>
+
+              <!-- Mobile-only footer links -->
+              <li id='menu-item-4607' class='mobilonly menu-item menu-item-type-post_type menu-item-object-page'><a href='https://de.dennis-kelich.com/impressum/' target='_blank'>Imprint</a></li>
+              <li id='menu-item-4592' class='mobilonly menu-item menu-item-type-post_type menu-item-object-page menu-item-privacy-policy'><a href='https://de.dennis-kelich.com/datenschutz/' target='_blank'>Privacy Policy</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+    
+    <!-- Right side: Language switcher and dark mode toggle -->
+    <div class="nav-right">
+      <div class="lang-switch menu-top">
+        <a href="https://de.dennis-kelich.com">DE</a>
+        <a href="https://dennis-kelich.com">EN</a>
+        <a href="https://jp.dennis-kelich.com">日本語</a>
+      </div>
+      <!-- Dark Mode Toggle - Triggers toggleDarkMode() function -->
+      <button id="darkModeToggle" class="dark-toggle">🌙</button>
+    </div>
+  </div>
+</header>
+
+<!-- ==================== HERO BANNER ==================== -->
+<section class="hero-banner">
+  <img src="https://cdn.dennis-kelich.com/shutterstock_2154196761.jpg" alt="Header Banner" />
+</section>
+
+<!-- ==================== ABOUT SECTION ==================== -->
+<section id="about" class="section">
+    <h2>私について</h2>
+    <p style='max-width: 700px;margin: auto;'>
+      こんにちは、デニスと申します。創造的で実用的なウェブソリューションを追求する、情熱を持ったウェブ開発者です。企業やクリエイターの皆様が、魅力的かつ高機能なウェブサイトを構築できるようサポートしています。<br>
+      <br>
+      私は SANJOUIN.com および RINgroup の創設者であり、オープンソースのイントラネット管理システム SynoCP のリード開発者でもあります。技術力とビジネス視点を活かし、価値あるデジタルソリューションを提供しています。<br>
+      <br>
+      シンプルな企業サイトから複雑なウェブアプリケーションまで、企画段階から公開後の運用まで一貫してお手伝いいたします。</p>
+
+      <div class="social-bar">
+          <a href="https://github.com/dennis-akashia" data-config-social="github" target="_blank" aria-label="GitHub">
+              <img src="https://cdn.dennis-kelich.com/GitHub.svg" alt="GitHub" />
+          </a>
+          <a href="https://x.com/DennisKelich" data-config-social="x" target="_blank" aria-label="X (Twitter)">
+              <img src="https://cdn.dennis-kelich.com/X.svg" alt="X" />
+          </a>
+          <a href="https://www.linkedin.com/in/dennis-akashia/" data-config-social="linkedin" target="_blank" aria-label="LinkedIn">
+              <img src="https://cdn.dennis-kelich.com/LinkedIn.svg" alt="LinkedIn" />
+          </a>
+      </div>
+
+  </section>
+
+  <section id="projects" class="section" style="border-radius: 0px 0px 20px 20px;margin-bottom: 40px;padding-bottom: 80px;">
+    <h2>プロジェクト</h2>
+    <div class="project-grid">
+        <!-- Projects will be loaded dynamically from projects.json -->
+    </div>
+  </section>
+
+
+
+  <footer class="footer">
+    <div class="container">
+        <b data-config="site.footerTitle">DennisKelich.com InfoHP</b><br>
+        &copy; <span data-config="site.copyright">Dennis Kelich</span> | <a href="https://de.dennis-kelich.com/impressum/" target='_blank'>Impressum</a> | <a href="https://de.dennis-kelich.com/datenschutz/" target='_blank'>Datenschutz</a> | <a href="https://de.dennis-kelich.com/contact/" target='_blank'>Kontakt</a>
+    </div>
+  </footer>
+
+  <script src="https://cdn.dennis-kelich.com/1.0.0/script.min.js"></script>
+</body>
+</html>

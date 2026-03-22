@@ -1,0 +1,67 @@
+[
+  {
+    "image": null,
+    "title": "RINslider",
+    "description": {
+      "de": "Lead Entwickler",
+      "en": "Lead Developer",
+      "ja": "リード開発者"
+    },
+    "website": "https://rinslider.com",
+    "blogPost": "https://de.dennis-kelich.com/blog/offizieller-launch-der-rinslider-website/"
+  },
+  {
+    "image": "https://cdn.dennis-kelich.com/rinim.jpg",
+    "title": "Reinford Info Network",
+    "description": {
+      "de": "公式ウェブサイト開発"
+    },
+    "website": "https://www.rin.im",
+    "blogPost": null
+  },
+  {
+    "image": "https://cdn.dennis-kelich.com/pfi.webp",
+    "title": "PFI Planungsgemeinschaft",
+    "description": {
+      "ja": "公式ウェブサイト開発<br>Impuls Webagenturの委託"
+    },
+    "website": "https://www.pfi.de",
+    "blogPost": null
+  },
+  {
+    "image": "https://cdn.dennis-kelich.com/freund.webp",
+    "title": "Freund Ladenbau",
+    "description": {
+      "ja": "公式ウェブサイト開発<br>Impuls Webagenturの委託"
+    },
+    "website": "https://www.ladenbau-freund.de",
+    "blogPost": null
+  },
+  {
+    "image": null,
+    "title": "Impuls Consent Manager",
+    "description": {
+      "ja": "リード開発者（WP版）<br>Impuls Webagenturの委託"
+    },
+    "website": null,
+    "blogPost": null
+  },
+  {
+    "image": "https://cdn.dennis-kelich.com/rinanime.webp",
+    "title": "RINanime",
+    "description": {
+      "ja": "公式ウェブサイト開発"
+    },
+    "website": "https://www.rinanime.de",
+    "blogPost": null
+  },
+  {
+    "image": "https://cdn.dennis-kelich.com/placeholdercool.png",
+    "title": "placeholder.cool",
+    "description": {
+      "ja": "ウェブサイトジェネレーター開発"
+    },
+    "website": "https://placeholder.cool/",
+    "blogPost": "https://de.dennis-kelich.com/blog/ein-side-projekt-mein-webseiten-placeholder-generator/"
+  }
+]

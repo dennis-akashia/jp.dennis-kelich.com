@@ -1,0 +1,77 @@
+{
+  "nav": {
+    "about": {
+      "de": "Über mich",
+      "en": "About",
+      "ja": "紹介"
+    },
+    "blog": {
+      "de": "Blog",
+      "en": "Blog",
+      "ja": "ブログ"
+    },
+    "projects": {
+      "de": "Referenzen",
+      "en": "Projects",
+      "ja": "プロジェクト"
+    },
+    "contact": {
+      "de": "Kontakt",
+      "en": "Contact",
+      "ja": "連絡先"
+    }
+  },
+  "home": {
+    "aboutTitle": {
+      "de": "Über mich",
+      "en": "About Me",
+      "ja": "私について"
+    },
+    "aboutText": {
+      "de": "Hallo, ich bin Dennis – Webentwickler mit Leidenschaft für durchdachte und kreative Lösungen. \nIch unterstütze Unternehmen und kreative Köpfe dabei, moderne und funktionale Webauftritte zu realisieren, die nicht nur gut aussehen, sondern auch technisch überzeugen.<br>\n<br>\nAls Gründer von SANJOUIN.com und RINgroup sowie als Lead-Entwickler des Open-Source-Intranet-Systems SynoCP bringe ich sowohl unternehmerisches Denken als auch tiefgehende technische Expertise mit.\nMein Anspruch: digitale Lösungen entwickeln, die nachhaltig wirken und echten Mehrwert schaffen.<br>\n<br>\nOb komplexe Webanwendung oder individuelle Unternehmenswebsite – ich begleite Projekte von der Konzeption bis zum Livegang und darüber hinaus.",
+      "en": "Hi, I'm Dennis – a web developer driven by thoughtful, creative solutions. \nI help businesses and creative professionals build modern, functional websites that not only look great but also deliver solid performance.<br>\n<br>\nAs the founder of SANJOUIN.com and RINgroup, and lead developer of the open-source intranet management system SynoCP, I combine entrepreneurial vision with deep technical expertise.\nMy goal: to create digital solutions that are sustainable and truly valuable.<br>\n<br>\nFrom complex web applications to tailored company websites – I support projects from concept to launch and beyond.",
+      "ja": "こんにちは、デニスと申します。創造的で実用的なウェブソリューションを追求する、情熱を持ったウェブ開発者です。\n企業やクリエイターの皆様が、魅力的かつ高機能なウェブサイトを構築できるようサポートしています。<br>\n<br>\n私は SANJOUIN.com および RINgroup の創設者であり、オープンソースのイントラネット管理システム SynoCP のリード開発者でもあります。\n技術力とビジネス視点を活かし、価値あるデジタルソリューションを提供しています。<br>\n<br>\nシンプルな企業サイトから複雑なウェブアプリケーションまで、企画段階から公開後の運用まで一貫してお手伝いいたします。"
+    },
+    "blogTitle": {
+      "de": "Blog",
+      "en": "Blog",
+      "ja": "ブログ"
+    },
+    "projectsTitle": {
+      "de": "Neuste Referenzen",
+      "en": "Projects",
+      "ja": "プロジェクト"
+    }
+  },
+  "blog": {
+    "pageTitle": {
+      "de": "Blog",
+      "en": "Blog",
+      "ja": "ブログ"
+    },
+    "introText": {
+      "de": "Willkommen auf meinem Blog! Hier teile ich Einblicke in meine aktuellen Projekte, Entwicklungsprozesse und Gedanken zu Webentwicklung und Technologie. Von praktischen Tutorials bis hin zu Updates aus meiner täglichen Arbeit – hier findest du regelmäßig neue Beiträge rund um meine Arbeit als Webentwickler.",
+      "en": "Welcome to my blog! Here I share insights into my current projects, development processes, and thoughts on web development and technology. From practical tutorials to updates from my daily work – you'll find regular posts about my work as a web developer.",
+      "ja": "私のブログへようこそ！ここでは、現在のプロジェクト、開発プロセス、ウェブ開発とテクノロジーに関する考えを共有しています。実践的なチュートリアルから日々の仕事の最新情報まで、ウェブ開発者としての私の仕事に関する記事を定期的に掲載しています。"
+    }
+  },
+  "impressum": {
+    "pageTitle": {
+      "de": "Impressum",
+      "en": "Imprint",
+      "ja": "Imprint"
+    }
+  },
+  "projects": {
+    "website": {
+      "de": "Webseite",
+      "en": "Website",
+      "ja": "ウェブサイト"
+    },
+    "blogPost": {
+      "de": "Blog Beitrag",
+      "en": "Blog Post",
+      "ja": "ブログ記事"
+    }
+  }
+}
