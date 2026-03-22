@@ -11,7 +11,7 @@
     "blogPost": "https://de.dennis-kelich.com/blog/offizieller-launch-der-rinslider-website/"
   },
   {
-    "image": "https://cdn.dennis-kelich.com/rinim.jpg",
+    "image": "https://jp.dennis-kelich.com/common/rinim.jpg",
     "title": "Reinford Info Network",
     "description": {
       "de": "公式ウェブサイト開発"
@@ -20,7 +20,7 @@
     "blogPost": null
   },
   {
-    "image": "https://cdn.dennis-kelich.com/pfi.webp",
+    "image": "https://jp.dennis-kelich.com/common/pfi.webp",
     "title": "PFI Planungsgemeinschaft",
     "description": {
       "ja": "公式ウェブサイト開発<br>Impuls Webagenturの委託"
@@ -29,7 +29,7 @@
     "blogPost": null
   },
   {
-    "image": "https://cdn.dennis-kelich.com/freund.webp",
+    "image": "https://jp.dennis-kelich.com/common/freund.webp",
     "title": "Freund Ladenbau",
     "description": {
       "ja": "公式ウェブサイト開発<br>Impuls Webagenturの委託"
@@ -47,7 +47,7 @@
     "blogPost": null
   },
   {
-    "image": "https://cdn.dennis-kelich.com/rinanime.webp",
+    "image": "https://jp.dennis-kelich.com/common/rinanime.webp",
     "title": "RINanime",
     "description": {
       "ja": "公式ウェブサイト開発"
@@ -56,7 +56,7 @@
     "blogPost": null
   },
   {
-    "image": "https://cdn.dennis-kelich.com/placeholdercool.png",
+    "image": "https://jp.dennis-kelich.com/common/placeholdercool.png",
     "title": "placeholder.cool",
     "description": {
       "ja": "ウェブサイトジェネレーター開発"
