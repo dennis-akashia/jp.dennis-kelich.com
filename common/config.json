@@ -1,0 +1,17 @@
+{
+  "site": {
+    "title": "DennisKelich.com",
+    "footerTitle": "Dennis Kelich InfoHP",
+    "copyright": "Dennis Kelich"
+  },
+  "urls": {
+    "impressum": "/impressum/",
+    "datenschutz": "/datenschutz/",
+    "contact": "/contact/"
+  },
+  "social": {
+    "github": "https://github.com/dennis-akashia",
+    "x": "https://x.com/DennisKelich",
+    "linkedin": "https://www.linkedin.com/in/dennis-akashia/"
+  }
+}

@@ -1,0 +1,30 @@
+[
+  {
+    "title": "🚀 Launch der offiziellen RINslider-Website",
+    "slug": "offizieller-launch-der-rinslider-website",
+    "date": "2026-01-26",
+    "type": "Side-Project",
+    "summary": "Die offizielle RINslider-Website ist live – mit Feature-Übersicht, Live-Demos und Einstieg in die Dokumentation."
+  },
+  {
+    "title": "Ein Side-Projekt: Mein Webseiten Placeholder Generator",
+    "slug": "ein-side-projekt-mein-webseiten-placeholder-generator",
+    "date": "2025-12-16",
+    "type": "Side-Project",
+    "summary": "Aus einem ganz praktischen Bedarf heraus ist in den letzten Wochen ein kleines Side-Projekt entstanden: ein Webseiten Placeholder Generator. Der Fokus lag dabei von Anfang an auf Einfachheit und Kontrolle mit visuellem Editor, Live-Preview und Mehrsprachigkeit. Ein wichtiger Punkt war außerdem das Thema Datenschutz - der komplette Generator läuft lokal im Browser ohne Server, ohne Tracking, ohne externe Abhängigkeiten."
+  },
+  {
+    "title": "Erster Deep Dive in die Entwicklung von ImpulsNext",
+    "slug": "erster-deep-dive-impulsnext",
+    "date": "2025-11-14",
+    "type": "Update",
+    "summary": "Rund eine Woche nach dem offiziellen Startschuss für ImpulsNext wird es Zeit für ein erstes Update. Ich habe die letzten Tage genutzt, um die Grundarchitektur des Themes zu definieren mit dem klaren Ziel: sauber, modular und zukunftssicher. Ein Schwerpunkt lag dabei auf der Template-Struktur mit klarer Trennung von Template Parts, einheitlichem Naming und ersten eigenen Hooks."
+  },
+  {
+    "title": "ProjektStart - Mein eigenes WordPress-Theme – ImpulsNext",
+    "slug": "projektstart-mein-eigenes-wordpress-theme-impulsnext",
+    "date": "2025-11-05",
+    "type": "Project",
+    "summary": "Nach mehreren Jahren Arbeit mit WordPress habe ich beschlossen, meine Erfahrung in ein eigenes Theme zu investieren: ImpulsNext. Ziel ist es, ein leichtgewichtiges, performantes und sauberes WordPress-Theme zu entwickeln, das sich nahtlos an verschiedene Anforderungen anpassen lässt. ImpulsNext basiert auf den Prinzipien: Performance, Klarheit und Erweiterbarkeit."
+  }
+]
